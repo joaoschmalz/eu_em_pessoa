@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-color: rgb(108, 16, 16);
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(25, 25, 25);
+    color: #bfc3c4;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #bfc3c4;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #bfc3c4;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.me {
+    margin-right: 32px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.social-links img {
+    height: 30px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-methods li {
+    display: inline;
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: rgb(25, 25, 25);
+    color: #bfc3c4;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(60, 59, 59);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(25, 25, 25);
+}
+
+footer {
+    background-color: rgb(25, 25, 25);
+    color: #bfc3c4;
+    padding: 16px 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+td {
+    width: 425px;
+    align-items: center;
+}
+
+.social-icons {
+    margin-top: 0 auto;
+    align-content: center;
+}
